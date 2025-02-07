@@ -1,0 +1,7 @@
+{
+    "name": "bun-coding-samples",
+    "private": true,
+    "workspaces": [
+      "packages/*"
+    ]
+  }
