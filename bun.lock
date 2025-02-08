@@ -16,8 +16,17 @@
         "typescript": "^5.0.0",
       },
     },
-    "packages/minimum-increasing-swap": {
-      "name": "minimum-increasing-swap",
+    "packages/merge-overlapping-intervals": {
+      "name": "merge-overlapping-intervals",
+      "devDependencies": {
+        "@types/bun": "latest",
+      },
+      "peerDependencies": {
+        "typescript": "^5.0.0",
+      },
+    },
+    "packages/ones-grid": {
+      "name": "ones-grid",
       "devDependencies": {
         "@types/bun": "latest",
       },
@@ -87,9 +96,11 @@
 
     "light-my-request": ["light-my-request@6.5.1", "", { "dependencies": { "cookie": "^1.0.1", "process-warning": "^4.0.0", "set-cookie-parser": "^2.6.0" } }, "sha512-0q82RyxIextuDtkA0UDofhPHIiQ2kmpa7fwElCSlm/8nQl36cDU1Cw+CAO90Es0lReH2HChClKL84I86Nc52hg=="],
 
-    "minimum-increasing-swap": ["minimum-increasing-swap@workspace:packages/minimum-increasing-swap"],
+    "merge-overlapping-intervals": ["merge-overlapping-intervals@workspace:packages/merge-overlapping-intervals"],
 
     "on-exit-leak-free": ["on-exit-leak-free@2.1.2", "", {}, "sha512-0eJJY6hXLGf1udHwfNftBqH+g73EU4B504nZeKpz1sYRKafAghwxEJunB2O7rDZkL4PGfsMVnTXZ2EjibbqcsA=="],
+
+    "ones-grid": ["ones-grid@workspace:packages/ones-grid"],
 
     "pino": ["pino@9.6.0", "", { "dependencies": { "atomic-sleep": "^1.0.0", "fast-redact": "^3.1.1", "on-exit-leak-free": "^2.1.0", "pino-abstract-transport": "^2.0.0", "pino-std-serializers": "^7.0.0", "process-warning": "^4.0.0", "quick-format-unescaped": "^4.0.3", "real-require": "^0.2.0", "safe-stable-stringify": "^2.3.1", "sonic-boom": "^4.0.1", "thread-stream": "^3.0.0" }, "bin": { "pino": "bin.js" } }, "sha512-i85pKRCt4qMjZ1+L7sy2Ag4t1atFcdbEt76+7iRJn1g2BvsnRMGu9p8pivl9fs63M2kF/A0OacFZhTub+m/qMg=="],
 
